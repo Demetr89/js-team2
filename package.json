@@ -1,0 +1,37 @@
+{
+  "name": "goIt-news-team-project",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Demetr89.github.io/goIt-news-team-project",
+  "scripts": {
+    "start": "parcel src/*.html --open",
+    "build": "parcel build src/*.html --public-url /js-team2/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "flatpickr": "^4.6.13",
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^1.1.0",
+    "lodash.uniq": "^4.5.0",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "date-fns": "^2.29.3",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "sweetalert": "^2.1.2"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
